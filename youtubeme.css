@@ -1,0 +1,33 @@
+.youtubemeBloc { position:fixed; bottom:0; right:15px; z-index:1000000000; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;}
+.youtubeArrow { width:26px; height:28px; }
+.youtubeArrow img.youtubemeOpen { height:26px; position:absolute; bottom:0; right:5px; }
+.youtubeArrow img.youtubemeOpen:hover { cursor:pointer; }
+.youtubemeBloc .youtubemePauseImg, .youtubemeBloc .youtubemePlayImg { position:absolute; height:27px; bottom:0; right:35px; }
+.youtubemeBloc .youtubemePauseImg:hover, .youtubemeBloc .youtubemePlayImg:hover { cursor:pointer; }
+.youtubeMeSearch { height:200px; width:396px; text-align:center; }
+.youtubeMeSearch .youtubeMeSearchBloc { height:160px; overflow-y: scroll; }
+.youtubeMeSearch .youtubeMeSearchTitle {font-size:18px; margin-top:8px; text-align: left; margin-left: 140px;margin-bottom: 5px;margin-top: 18px; }
+.youtubeMeSearch ul { list-style-type: none !important; left:0 !important; margin:0 !important;padding:0 !important; }
+.youtubeMeSearch ul li { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important; height:30px; padding: 5px !important; text-align:left; color:darkgrey;margin-right:2px;line-height:25px;}
+.youtubeMeSearch ul li span { margin-left:55px;}
+.youtubeMeSearch ul li:hover { cursor:pointer; background-color:#3F3F3F;color:white;}
+.youtubeIframe {display: none; background:#232323; color:white; width:400px; height:260px; border-radius: 5px; border: 2px solid #114B75; bottom:-2px; }
+.youtubeIframe .youtubeMePresentation { font-size : 14px; bottom: 5px; right:20px; position:absolute;height:26px;width:93%; }
+.youtubeIframe .youtubeMePresentation span.signature { font-size:12px; color:#2D9C2D; position: absolute; right: 3px; bottom: 2px; }
+.youtubeme_logo { height:25px; position:absolute; top:6px; right:80px; border-radius: 2px;position: absolute; left: 0; top:0;}
+.youtubeIframe .searchYoutubeMeInput { width:100%; height:35px; margin-bottom:1px; }
+.youtubeIframe .searchYoutubeMeInput input { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important; height:35px; text-align:center; background-color:#3F3F3F; color:white; border:none;border-bottom-right-radius:2px; margin:0 !important; padding:0 !important; position: absolute; left: 118px; }
+.youtubeIframe .searchYoutubeMeInput input:focus {outline: 0 !important;}
+.youtubeIframeInside { margin-top:2px;border:none; }
+.closeImg { height: 25px; position:absolute; right:5px; top:6px;}
+.closeImg:hover { cursor:pointer; }
+.arrowDownImg { height: 24px; position:absolute; right:37px; top:6px; background-color: #FFFFFF;border-radius: 20px;border: 1px solid #FEFEFE; }
+.arrowDownImg:hover {cursor: pointer}
+.playlistImg { height: 25px; position:absolute; right:40px; top:6px; }
+.playlistImg:hover {cursor:pointer;}
+.addInPlaylist { height: 25px; position:absolute; right:70px; top:6px; }
+.open_youtubeme_popup {height:25px; position:absolute; top:3px; left:-4px;}
+.open_youtubeme_popup:hover { cursor:pointer; border:1px solid  #FEFEFE;border-radius:20px;}
+.youtubeMeSearch .youtubeMeSearchBloc::-webkit-scrollbar { width: 0.9em; }
+.youtubeMeSearch .youtubeMeSearchBloc::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
+.youtubeMeSearch .youtubeMeSearchBloc::-webkit-scrollbar-thumb { background-color: darkgrey; outline: 1px solid slategrey; }

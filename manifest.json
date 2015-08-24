@@ -1,0 +1,33 @@
+{
+	"manifest_version":2,
+	"name":"youtubeMe",
+	"version":"1.5",
+	"description" :"Lecteur youtube intégré",
+
+	"icons": { "16": "images/icone.png",
+           "48": "images/icone.png",
+          "128": "images/icone.png" },
+
+  "background": {
+    "page": "youtubeme_popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css" : ["youtubeme.css"],
+      "js": [ "jquery-2.1.4.min.js", "youtubeme_option.js", "youtubeme.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+ "permissions": [
+    "tabs", "http://www.google.com/*", "storage"
+  ],
+
+	"browser_action":
+		{
+			"default_icon":"images/icone.png",
+			"default_popup":"option.html"
+		}
+}
